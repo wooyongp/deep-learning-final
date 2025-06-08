@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.6)  8 JUN 2025 17:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.6)  8 JUN 2025 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -979,12 +979,12 @@ Underfull \hbox (badness 3568) in paragraph at lines 2--2
  []
 
 (./summary_statistics.tex)) (./results.tex
-<../figures/cnn-1.png, id=96, 714.7503pt x 426.393pt>
+<../figures/cnn-1.png, id=97, 714.7503pt x 426.393pt>
 File: ../figures/cnn-1.png Graphic file (type png)
 <use ../figures/cnn-1.png>
 Package pdftex.def Info: ../figures/cnn-1.png  used on input line 6.
 (pdftex.def)             Requested size: 224.39664pt x 133.86557pt.
-<../figures/mc-nnm-1.png, id=98, 714.7503pt x 426.393pt>
+<../figures/mc-nnm-1.png, id=99, 714.7503pt x 426.393pt>
 File: ../figures/mc-nnm-1.png Graphic file (type png)
 <use ../figures/mc-nnm-1.png>
 Package pdftex.def Info: ../figures/mc-nnm-1.png  used on input line 11.
@@ -992,32 +992,32 @@ Package pdftex.def Info: ../figures/mc-nnm-1.png  used on input line 11.
 
 
 [3]
-<../figures/cnn-2.png, id=112, 714.7503pt x 426.393pt>
+<../figures/cnn-2.png, id=113, 714.7503pt x 426.393pt>
 File: ../figures/cnn-2.png Graphic file (type png)
 <use ../figures/cnn-2.png>
 Package pdftex.def Info: ../figures/cnn-2.png  used on input line 43.
 (pdftex.def)             Requested size: 149.6003pt x 89.24588pt.
-<../figures/cnn-3.png, id=113, 714.7503pt x 426.393pt>
+<../figures/cnn-3.png, id=114, 714.7503pt x 426.393pt>
 File: ../figures/cnn-3.png Graphic file (type png)
 <use ../figures/cnn-3.png>
 Package pdftex.def Info: ../figures/cnn-3.png  used on input line 48.
 (pdftex.def)             Requested size: 149.6003pt x 89.24588pt.
-<../figures/cnn-4.png, id=114, 714.7503pt x 426.393pt>
+<../figures/cnn-4.png, id=115, 714.7503pt x 426.393pt>
 File: ../figures/cnn-4.png Graphic file (type png)
 <use ../figures/cnn-4.png>
 Package pdftex.def Info: ../figures/cnn-4.png  used on input line 53.
 (pdftex.def)             Requested size: 149.6003pt x 89.24588pt.
-<../figures/mc-nnm-2.png, id=115, 714.7503pt x 426.393pt>
+<../figures/mc-nnm-2.png, id=116, 714.7503pt x 426.393pt>
 File: ../figures/mc-nnm-2.png Graphic file (type png)
 <use ../figures/mc-nnm-2.png>
 Package pdftex.def Info: ../figures/mc-nnm-2.png  used on input line 65.
 (pdftex.def)             Requested size: 149.6003pt x 89.24588pt.
-<../figures/mc-nnm-3.png, id=116, 714.7503pt x 426.393pt>
+<../figures/mc-nnm-3.png, id=117, 714.7503pt x 426.393pt>
 File: ../figures/mc-nnm-3.png Graphic file (type png)
 <use ../figures/mc-nnm-3.png>
 Package pdftex.def Info: ../figures/mc-nnm-3.png  used on input line 70.
 (pdftex.def)             Requested size: 149.6003pt x 89.24588pt.
-<../figures/mc-nnm-4.png, id=117, 714.7503pt x 426.393pt>
+<../figures/mc-nnm-4.png, id=118, 714.7503pt x 426.393pt>
 File: ../figures/mc-nnm-4.png Graphic file (type png)
 <use ../figures/mc-nnm-4.png>
 Package pdftex.def Info: ../figures/mc-nnm-4.png  used on input line 75.
@@ -1025,22 +1025,22 @@ Package pdftex.def Info: ../figures/mc-nnm-4.png  used on input line 75.
 )
 
 [4 <../figures/cnn-1.png> <../figures/mc-nnm-1.png> <../figures/cnn-2.png> <../figures/cnn-3.png> <../figures/cnn-4.png>] (./variations.tex
-<../figures/cnn_batch_norm-1.png, id=133, 714.7503pt x 426.393pt>
+<../figures/cnn_batch_norm-1.png, id=134, 714.7503pt x 426.393pt>
 File: ../figures/cnn_batch_norm-1.png Graphic file (type png)
 <use ../figures/cnn_batch_norm-1.png>
 Package pdftex.def Info: ../figures/cnn_batch_norm-1.png  used on input line 13.
 (pdftex.def)             Requested size: 199.46198pt x 118.99234pt.
-<../figures/cnn_batch_norm-2.png, id=134, 714.7503pt x 426.393pt>
+<../figures/cnn_batch_norm-2.png, id=135, 714.7503pt x 426.393pt>
 File: ../figures/cnn_batch_norm-2.png Graphic file (type png)
 <use ../figures/cnn_batch_norm-2.png>
 Package pdftex.def Info: ../figures/cnn_batch_norm-2.png  used on input line 20.
 (pdftex.def)             Requested size: 199.46198pt x 118.99234pt.
-<../figures/cnn_batch_norm-3.png, id=135, 714.7503pt x 426.393pt>
+<../figures/cnn_batch_norm-3.png, id=136, 714.7503pt x 426.393pt>
 File: ../figures/cnn_batch_norm-3.png Graphic file (type png)
 <use ../figures/cnn_batch_norm-3.png>
 Package pdftex.def Info: ../figures/cnn_batch_norm-3.png  used on input line 29.
 (pdftex.def)             Requested size: 199.46198pt x 118.99234pt.
-<../figures/cnn_batch_norm-4.png, id=136, 714.7503pt x 426.393pt>
+<../figures/cnn_batch_norm-4.png, id=137, 714.7503pt x 426.393pt>
 File: ../figures/cnn_batch_norm-4.png Graphic file (type png)
 <use ../figures/cnn_batch_norm-4.png>
 Package pdftex.def Info: ../figures/cnn_batch_norm-4.png  used on input line 36.
@@ -1048,22 +1048,22 @@ Package pdftex.def Info: ../figures/cnn_batch_norm-4.png  used on input line 36.
 
 
 [5 <../figures/mc-nnm-2.png> <../figures/mc-nnm-3.png> <../figures/mc-nnm-4.png> <../figures/cnn_batch_norm-1.png> <../figures/cnn_batch_norm-2.png> <../figures/cnn_batch_norm-3.png> <../figures/cnn_batch_norm-4.png>]
-<../figures/cnn_add_layer-1.png, id=152, 714.7503pt x 426.393pt>
+<../figures/cnn_add_layer-1.png, id=153, 714.7503pt x 426.393pt>
 File: ../figures/cnn_add_layer-1.png Graphic file (type png)
 <use ../figures/cnn_add_layer-1.png>
 Package pdftex.def Info: ../figures/cnn_add_layer-1.png  used on input line 60.
 (pdftex.def)             Requested size: 199.46198pt x 118.99234pt.
-<../figures/cnn_add_layer-2.png, id=153, 714.7503pt x 426.393pt>
+<../figures/cnn_add_layer-2.png, id=154, 714.7503pt x 426.393pt>
 File: ../figures/cnn_add_layer-2.png Graphic file (type png)
 <use ../figures/cnn_add_layer-2.png>
 Package pdftex.def Info: ../figures/cnn_add_layer-2.png  used on input line 67.
 (pdftex.def)             Requested size: 199.46198pt x 118.99234pt.
-<../figures/cnn_add_layer-3.png, id=154, 714.7503pt x 426.393pt>
+<../figures/cnn_add_layer-3.png, id=155, 714.7503pt x 426.393pt>
 File: ../figures/cnn_add_layer-3.png Graphic file (type png)
 <use ../figures/cnn_add_layer-3.png>
 Package pdftex.def Info: ../figures/cnn_add_layer-3.png  used on input line 76.
 (pdftex.def)             Requested size: 199.46198pt x 118.99234pt.
-<../figures/cnn_add_layer-4.png, id=155, 714.7503pt x 426.393pt>
+<../figures/cnn_add_layer-4.png, id=156, 714.7503pt x 426.393pt>
 File: ../figures/cnn_add_layer-4.png Graphic file (type png)
 <use ../figures/cnn_add_layer-4.png>
 Package pdftex.def Info: ../figures/cnn_add_layer-4.png  used on input line 83.
@@ -1094,16 +1094,16 @@ Package logreq Info: Writing requests to 'draft.run.xml'.
 Here is how much of TeX's memory you used:
  40327 strings out of 473190
  915467 string characters out of 5715801
- 1803418 words of memory out of 5000000
+ 1803455 words of memory out of 5000000
  62957 multiletter control sequences out of 15000+600000
  576979 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,19n,87p,808b,1219s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on draft.pdf (7 pages, 2947845 bytes).
+Output written on draft.pdf (7 pages, 2948899 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
+ 252 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
  35 named destinations out of 1000 (max. 500000)
  199 words of extra memory for PDF output out of 10000 (max. 10000000)
 
