@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber draft"] 1749350943.64106 "draft.bcf" "draft.bbl" "draft" 1749372152.64269 0
+["biber draft"] 1749350943.64106 "draft.bcf" "draft.bbl" "draft" 1749372968.21735 0
   "bibliography.bib" 1749298879 1067 23f6600a05b5c2cbe972f12a53d55be7 ""
-  "draft.bcf" 1749372152.56924 108986 c5fd8a0022847cc1a30e108195958047 "pdflatex"
+  "draft.bcf" 1749372968.14235 108986 c5fd8a0022847cc1a30e108195958047 "pdflatex"
   (generated)
   "draft.bbl"
   "draft.blg"
   (rewritten before read)
-["pdflatex"] 1749372151.00135 "/Users/wooyongpark/Dropbox/01 Coursework/02 Stat/08 Deep Learning/final-project/doc/draft.tex" "draft.pdf" "draft" 1749372152.64297 0
+["pdflatex"] 1749372966.53776 "/Users/wooyongpark/Dropbox/01 Coursework/02 Stat/08 Deep Learning/final-project/doc/draft.tex" "draft.pdf" "draft" 1749372968.21757 0
   "../figures/cnn-1.png" 1749292980.40205 42880 7e04275af8b5ca302dff6d6a50621c4d ""
   "../figures/cnn-2.png" 1749292989.29809 42769 d83c8952ea8f178037fbd469dbb1b25f ""
   "../figures/cnn-3.png" 1749292996.36326 43679 6418c6b2c450d0ed723b3e16d49804af ""
@@ -25,7 +25,7 @@
   "../figures/mc-nnm-2.png" 1749293062.87222 53691 47b2031e1f2a952b09782bad8d87695e ""
   "../figures/mc-nnm-3.png" 1749293074.1766 53264 5bd0022b36800fce2d41d576d598c133 ""
   "../figures/mc-nnm-4.png" 1749293083.80931 54729 03926c840f89b25da6a5bdc09d2a1b6d ""
-  "/Users/wooyongpark/Dropbox/01 Coursework/02 Stat/08 Deep Learning/final-project/doc/draft.tex" 1749372150.83124 4401 490ad027e8a6e5bea241afc4cea5447a ""
+  "/Users/wooyongpark/Dropbox/01 Coursework/02 Stat/08 Deep Learning/final-project/doc/draft.tex" 1749372866.98271 4608 d21886cd2a981ac147156567666c77ad ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -268,12 +268,12 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743911045 3345742 df0eedd33858444a11cd7b5484bcd2c7 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "data.tex" 1749297923 1234 dfa92efc95fe9ceb40ea295baf8a10ba ""
-  "draft.aux" 1749372152.56765 6560 ea1e9dc9e5cf799a0c9832f938e890ec "pdflatex"
+  "draft.aux" 1749372968.14075 6560 c565fd7f39e971c7a4829ea48b49f96e "pdflatex"
   "draft.bbl" 1749350952.88187 6269 3de4433777caa16eec2186a61166d007 "biber draft"
-  "draft.out" 1749372152.56852 1782 8eeac5d5097ccf360e0923a64e748853 "pdflatex"
-  "draft.run.xml" 1749372152.56993 2320 5674721bc624af3a27da50e66024dcdd "pdflatex"
-  "draft.tex" 1749372150.83124 4401 490ad027e8a6e5bea241afc4cea5447a ""
-  "introduction.tex" 1749298959 6072 9a87a09befaa47a24ceb439762657afd ""
+  "draft.out" 1749372968.14161 1782 8eeac5d5097ccf360e0923a64e748853 "pdflatex"
+  "draft.run.xml" 1749372968.14289 2320 5674721bc624af3a27da50e66024dcdd "pdflatex"
+  "draft.tex" 1749372866.98271 4608 d21886cd2a981ac147156567666c77ad ""
+  "introduction.tex" 1749372966.36137 5889 9a267b80c18e448b198d6fb2e996828d ""
   "results.tex" 1749369927.69242 4372 c142953df3925bae2c47f68943cc557d ""
   "summary_statistics.tex" 1749350942.14365 665 bd74ce4cdd77a47b756e8635561e4ae1 ""
   "variations.tex" 1749371753.19987 4110 3d6b15c271dee2171fa3df40fc3ecf22 ""

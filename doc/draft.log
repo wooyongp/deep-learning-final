@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.6)  8 JUN 2025 17:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.6)  8 JUN 2025 17:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -992,39 +992,39 @@ Package pdftex.def Info: ../figures/mc-nnm-1.png  used on input line 11.
 
 
 [3]
-<../figures/cnn-2.png, id=113, 714.7503pt x 426.393pt>
+<../figures/cnn-2.png, id=114, 714.7503pt x 426.393pt>
 File: ../figures/cnn-2.png Graphic file (type png)
 <use ../figures/cnn-2.png>
 Package pdftex.def Info: ../figures/cnn-2.png  used on input line 43.
 (pdftex.def)             Requested size: 149.6003pt x 89.24588pt.
-<../figures/cnn-3.png, id=114, 714.7503pt x 426.393pt>
+<../figures/cnn-3.png, id=115, 714.7503pt x 426.393pt>
 File: ../figures/cnn-3.png Graphic file (type png)
 <use ../figures/cnn-3.png>
 Package pdftex.def Info: ../figures/cnn-3.png  used on input line 48.
 (pdftex.def)             Requested size: 149.6003pt x 89.24588pt.
-<../figures/cnn-4.png, id=115, 714.7503pt x 426.393pt>
+<../figures/cnn-4.png, id=116, 714.7503pt x 426.393pt>
 File: ../figures/cnn-4.png Graphic file (type png)
 <use ../figures/cnn-4.png>
 Package pdftex.def Info: ../figures/cnn-4.png  used on input line 53.
 (pdftex.def)             Requested size: 149.6003pt x 89.24588pt.
-<../figures/mc-nnm-2.png, id=116, 714.7503pt x 426.393pt>
+<../figures/mc-nnm-2.png, id=117, 714.7503pt x 426.393pt>
 File: ../figures/mc-nnm-2.png Graphic file (type png)
 <use ../figures/mc-nnm-2.png>
 Package pdftex.def Info: ../figures/mc-nnm-2.png  used on input line 65.
 (pdftex.def)             Requested size: 149.6003pt x 89.24588pt.
-<../figures/mc-nnm-3.png, id=117, 714.7503pt x 426.393pt>
+<../figures/mc-nnm-3.png, id=118, 714.7503pt x 426.393pt>
 File: ../figures/mc-nnm-3.png Graphic file (type png)
 <use ../figures/mc-nnm-3.png>
 Package pdftex.def Info: ../figures/mc-nnm-3.png  used on input line 70.
 (pdftex.def)             Requested size: 149.6003pt x 89.24588pt.
-<../figures/mc-nnm-4.png, id=118, 714.7503pt x 426.393pt>
+<../figures/mc-nnm-4.png, id=119, 714.7503pt x 426.393pt>
 File: ../figures/mc-nnm-4.png Graphic file (type png)
 <use ../figures/mc-nnm-4.png>
 Package pdftex.def Info: ../figures/mc-nnm-4.png  used on input line 75.
 (pdftex.def)             Requested size: 149.6003pt x 89.24588pt.
-)
+) (./variations.tex
 
-[4 <../figures/cnn-1.png> <../figures/mc-nnm-1.png> <../figures/cnn-2.png> <../figures/cnn-3.png> <../figures/cnn-4.png>] (./variations.tex
+[4 <../figures/cnn-1.png> <../figures/mc-nnm-1.png> <../figures/cnn-2.png> <../figures/cnn-3.png> <../figures/cnn-4.png>]
 <../figures/cnn_batch_norm-1.png, id=134, 714.7503pt x 426.393pt>
 File: ../figures/cnn_batch_norm-1.png Graphic file (type png)
 <use ../figures/cnn_batch_norm-1.png>
@@ -1092,15 +1092,15 @@ Package logreq Info: Writing requests to 'draft.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40327 strings out of 473190
- 915467 string characters out of 5715801
- 1803455 words of memory out of 5000000
- 62957 multiletter control sequences out of 15000+600000
+ 40324 strings out of 473190
+ 915398 string characters out of 5715801
+ 1804455 words of memory out of 5000000
+ 62954 multiletter control sequences out of 15000+600000
  576979 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,19n,87p,808b,1219s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,19n,87p,808b,1221s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on draft.pdf (7 pages, 2948899 bytes).
+Output written on draft.pdf (7 pages, 2949009 bytes).
 PDF statistics:
  252 PDF objects out of 1000 (max. 8388607)
  175 compressed objects within 2 object streams

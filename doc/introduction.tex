@@ -25,7 +25,6 @@ The other rows are the outcomes of control units, which are observed for all tim
 		\vdots   &  \vdots & \vdots &\ddots &\vdots& \\
         \tick & \tick & \tick  & \dots & \tick& \\
 		\tick  & \tick & \tick   & \dots & \tick & \\
-		\tick & \tick & \tick   & \dots & \tick & \\
 		\tick & \tick & \tick   & \dots & \tick & 
 		\end{pmatrix} 
         \label{eq:panel_data_Y0}
@@ -49,8 +48,7 @@ To tackle the aforementioned issue, we propose a novel approach that combines CN
 The Mahalanobis distance is a measure of the distance between a point and a distribution, which takes into account the covariance structure of the data:
 
 \begin{align}
-    d_{\text{Mahalanobis}}(\mathbf{x}, \mathbf{y}) &= \sqrt{(\mathbf{x} - \mathbf{y})^\top \Sigma^{-1} (\mathbf{x} - \mathbf{y})} \label{eq:mahalanobis_distance}\\
-    \text{where } \Sigma &= \text{cov}(\mathbf{x}, \mathbf{y}) \text{ is the covariance matrix of } \mathbf{x} \text{ and } \mathbf{y}. \notag
+    d_{\text{Mahalanobis}}(\mathbf{x}, \mathbf{y}) &= \sqrt{(\mathbf{x} - \mathbf{y})^\top \Sigma^{-1} (\mathbf{x} - \mathbf{y})}  \qquad \text{where } \Sigma = \text{cov}(\mathbf{x}, \mathbf{y})\label{eq:mahalanobis_distance}
 \end{align}
 
 We compute \eqref{eq:mahalanobis_distance} between the treated unit and each control unit before the treatment, 
@@ -63,12 +61,11 @@ This way, the vertically adjacent cells in $\mathbf{Y(0)}$ are more likely to be
         \vdots   &  \vdots & \vdots &\ddots &\vdots& \\
         \tick & \tick & \tick  & \dots & \tick& \\
         \tick  & \tick & \tick   & \dots & \tick & \\
-        \tick & \tick & \tick   & \dots & \tick & \\
-        \tick & \tick & \tick   & \dots & \tick & 
+        \tick & \tick & \tick   & \dots & \tick &
         \end{pmatrix} 
         \quad
         \begin{tikzpicture}[baseline={(current bounding box.center)}]
-            \draw[very thick,->,>=latex] (0,1.6) -- (0,-1.6) node[midway,right] {\textcolor{red}{Mahalanobis Ordering}};
+            \draw[very thick,->,>=latex] (0,1.2) -- (0,-1) node[midway,right] {\textcolor{red}{Mahalanobis Ordering}};
         \end{tikzpicture}
 \end{align}
 
