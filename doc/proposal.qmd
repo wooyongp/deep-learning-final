@@ -1,0 +1,124 @@
+---
+title: "STA3140-01 DL Final Project Proposal"
+author: "Wooyong Park"
+date: today
+format:
+  html: 
+    html-math-method: katex
+---
+
+## Applying RNN for causal inference
+TBU
+
+## SCM
+
+```{r}
+library(tidyverse)
+library(haven)
+library(Synth)
+library(devtools)
+library(SCtools)
+
+read_data <- function(df)
+{
+  full_path <- paste("https://github.com/scunning1975/mixtape/raw/master/", 
+                     df, sep = "")
+  df <- read_dta(full_path)
+  return(df)
+}
+
+texas <- read_data("texas.dta") %>%
+  as.data.frame(.)
+
+dataprep_out <- dataprep(
+  foo = texas,
+  predictors = c("poverty", "income"),
+  predictors.op = "mean",
+  time.predictors.prior = 1985:1993,
+  special.predictors = list(
+    list("bmprison", c(1988, 1990:1992), "mean"),
+    list("alcohol", 1990, "mean"),
+    list("aidscapita", 1990:1991, "mean"),
+    list("black", 1990:1992, "mean"),
+    list("perc1519", 1990, "mean")),
+  dependent = "bmprison",
+  unit.variable = "statefip",
+  unit.names.variable = "state",
+  time.variable = "year",
+  treatment.identifier = 48,
+  controls.identifier = c(1,2,4:6,8:13,15:42,44:47,49:51,53:56),
+  time.optimize.ssr = 1985:1993,
+  time.plot = 1985:2000
+)
+
+synth_out <- synth(data.prep.obj = dataprep_out)
+
+path.plot(synth_out, dataprep_out)
+```
+
+
+## Matrix completion
+```{r}
+library(data.table)
+texas <- as.data.table(texas)
+texas <- texas[statefip %in% c(1,2,4:6,8:13,15:42,44:47,48, 49:51,53:56), .(statefip, year, bmprison)]
+
+texas[, bmprison0 :=fifelse(statefip==48 & year>=1994, NA, bmprison)]
+texas[, D:=fifelse(statefip==48 & year>=1994, 1, 0)]
+
+texas2 <- dcast(texas, statefip ~ year, value.var = "bmprison0")
+setkey(texas2, NULL)
+
+matrix_texas2 <- as.matrix(texas2)
+
+out <- gsynth(bmprison ~ D , data = texas, 
+              estimator = "mc", index = c("statefip","year"), 
+              se = FALSE,  r = c(0, 5), 
+              CV = TRUE, force = "two-way", 
+              parallel = TRUE, cores = 4, 
+              inference = "nonparametric")
+
+
+```
+
+## RNN example
+
+```{r}
+library(tidymodels)
+
+kickstarter <- read_csv("final-project/data/Kickstarter_2025-05-12T06_38_32_514Z/Kickstarter.csv")
+
+set.seed(1234)
+kickstarter_split <- kickstarter %>%
+  filter(nchar(blurb) >= 15) %>%
+  select(blurb, state, created_at) |> 
+  mutate(state = case_when(state=="successful" ~ 1, state =="failed"~0, .default = NA)) %>%
+  filter(!is.na(state)) |> 
+  initial_split()
+
+kickstarter_train <- training(kickstarter_split)
+kickstarter_test <- testing(kickstarter_split)
+
+library(textrecipes)
+
+max_words <- 10000
+max_length <- 30
+
+kick_rec <- recipe(~ blurb, data = kickstarter_train) %>%
+  step_tokenize(blurb) %>%
+  step_tokenfilter(blurb, max_tokens = max_words) %>%
+  step_sequence_onehot(blurb, sequence_length = max_length)
+
+kick_prep <- prep(kick_rec)
+kick_train <- bake(kick_prep, new_data = NULL, composition = "matrix")
+
+dim(kick_train)
+
+
+library(keras)
+
+lstm_mod <- keras_model_sequential() %>%
+  layer_embedding(input_dim = max_words + 1, output_dim = 32) %>%
+  layer_lstm(units = 32) %>%
+  layer_dense(units = 1, activation = "sigmoid")
+```

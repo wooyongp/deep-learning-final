@@ -1,0 +1,133 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=0.8in]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{setspace}
+\singlespacing
+\usepackage{booktabs}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{comment}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{chngcntr}
+\usepackage{caption}
+\usepackage{hhline}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{subcaption}
+\usepackage{longtable}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz, pgfplots}
+\usepackage{hyperref}
+% \usepackage{minipage}
+
+\newcommand{\tick}{\checkmark}
+
+\title{Convolutions for Causal Panel Data Models:\\
+	An Application to California's Proposition 99 Data
+}
+\author{
+	Wooyong Park\\
+	\multicolumn{1}{p{.7\textwidth}}{\centering Yonsei University} 
+}
+
+\date{}
+
+\renewcommand{\abstractname}{Abstract}
+
+\hypersetup{
+	colorlinks=true,    
+	citecolor=blue,     
+	filecolor=magenta,   
+	urlcolor=cyan          
+}
+\captionsetup[table]{name=Table}
+\captionsetup[figure]{name=Figure}
+
+\usepackage[backend=biber, style=authoryear, maxcitenames=2, maxbibnames=9]{biblatex}
+\renewbibmacro{in:}{}
+\DeclareDelimFormat{nameyeardelim}{\addcomma\space}
+\addbibresource{bibliography.bib}
+
+
+
+\begin{document}
+	\begin{singlespace}
+		\maketitle
+	\end{singlespace}
+	
+	\begin{figure}[htbp]
+		\centering
+		\begin{subfigure}[c]{0.3\textwidth}
+			\includegraphics[width=\textwidth]{../figures/intro1.png}
+		\end{subfigure}
+		\hspace{10pt}
+		{\Large $\Longrightarrow$}
+		\hspace{10pt}
+		\begin{subfigure}[c]{0.3\textwidth}
+			\includegraphics[width=\textwidth]{../figures/intro2.png}
+		\end{subfigure}
+	\end{figure}
+	\begin{abstract}		
+		\begin{singlespace} 
+			This study explores the possibility of applying convolutional neural networks (CNNs) to panel data, particulary in the context of causal inference.
+			CNNs have shown remarkable performance in image recognition tasks, but their application to panel data analysis is still limited.
+			On the contrary, traditional econometric methods, such as fixed effects, difference-in-differences, and synthetic control, have been widely used for causal inference in panel data.
+			However, these methods often rely on strong assumptions and may not be suitable for complex data structures.
+			To address this issue, we propose a novel approach that combines CNNs and Mahalanobis covariate distance to estimate causal effects in panel data.
+			We demonstrate the effectiveness of our approach using California's Proposition 99 data, which examines the impact of tobacco control policies on smoking rates and
+			compare the results with those obtained from Matrix Completion (MC-NNM) methods.
+		\end{singlespace}
+		
+		\bigskip
+		\noindent \emph{Keywords: Policy Evaluation, Matrix Completion, Convolutional Neural Networks, Panel Data}
+		\vspace{0.2cm}
+
+		\noindent \emph{Codes and Figures:}
+		\vspace{0.2cm}
+
+		\noindent \emph{Data: Click \href{https://drive.google.com/uc?id=1wD8h8pjCLDy1RbuPDZBSa3zH45TZL7ha&export=download}{this link}}
+		
+		
+		% \vfill
+		
+		% \centering
+		% We thank those who provided valuable comments on this study.
+		
+	\end{abstract}		
+
+\newpage
+
+\fontsize{11pt}{11pt}\selectfont
+\section{Introduction}
+
+\input{introduction.tex}
+
+\section{Data}
+\input{data.tex}
+
+\section{Results}
+\input{results.tex}
+
+\section{Variations}
+\input{variations.tex}
+
+\section{Conclusion}
+
+To summarize, this study demonstrates the potential of applying convolutional neural networks (CNNs) to panel data analysis, particularly in the context of causal inference.
+However, potential issues such as overfitting and sensitivity to data peculiarities must be addressed, including
+the poor prediction performance on the final period.
+Future research should focus on refining the CNN architecture and exploring alternative methods to improve the robustness of counterfactual predictions.
+For example, considering the autoregressive nature of panel data, incorporating PixelCNN or BiLSTM that 
+can capture temporal dependencies may enhance the model's performance.
+Additionally, further validation through extensive simulations and real-world applications is necessary to establish the reliability and generalizability of CNNs in causal panel data models.
+
+\newpage
+\printbibliography
+
+\end{document}
