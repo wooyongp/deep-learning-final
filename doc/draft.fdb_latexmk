@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber draft"] 1749350943.64106 "draft.bcf" "draft.bbl" "draft" 1749372968.21735 0
+["biber draft"] 1749350943.64106 "draft.bcf" "draft.bbl" "draft" 1749534652.53452 0
   "bibliography.bib" 1749298879 1067 23f6600a05b5c2cbe972f12a53d55be7 ""
-  "draft.bcf" 1749372968.14235 108986 c5fd8a0022847cc1a30e108195958047 "pdflatex"
+  "draft.bcf" 1749534652.46728 108986 c5fd8a0022847cc1a30e108195958047 "pdflatex"
   (generated)
   "draft.bbl"
   "draft.blg"
   (rewritten before read)
-["pdflatex"] 1749372966.53776 "/Users/wooyongpark/Dropbox/01 Coursework/02 Stat/08 Deep Learning/final-project/doc/draft.tex" "draft.pdf" "draft" 1749372968.21757 0
+["pdflatex"] 1749534651.07845 "/Users/wooyongpark/Dropbox/01 Coursework/02 Stat/08 Deep Learning/final-project/doc/draft.tex" "draft.pdf" "draft" 1749534652.53471 0
   "../figures/cnn-1.png" 1749292980.40205 42880 7e04275af8b5ca302dff6d6a50621c4d ""
   "../figures/cnn-2.png" 1749292989.29809 42769 d83c8952ea8f178037fbd469dbb1b25f ""
   "../figures/cnn-3.png" 1749292996.36326 43679 6418c6b2c450d0ed723b3e16d49804af ""
@@ -25,7 +25,7 @@
   "../figures/mc-nnm-2.png" 1749293062.87222 53691 47b2031e1f2a952b09782bad8d87695e ""
   "../figures/mc-nnm-3.png" 1749293074.1766 53264 5bd0022b36800fce2d41d576d598c133 ""
   "../figures/mc-nnm-4.png" 1749293083.80931 54729 03926c840f89b25da6a5bdc09d2a1b6d ""
-  "/Users/wooyongpark/Dropbox/01 Coursework/02 Stat/08 Deep Learning/final-project/doc/draft.tex" 1749372866.98271 4608 d21886cd2a981ac147156567666c77ad ""
+  "/Users/wooyongpark/Dropbox/01 Coursework/02 Stat/08 Deep Learning/final-project/doc/draft.tex" 1749534629.06032 4592 34ac354d9a3c32529bb9dd977aaad4e9 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -54,7 +54,6 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1136768653 768 1321e9409b4137d6fb428ac9dc956269 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
@@ -69,7 +68,6 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1248133631 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1248133631 31764 459c573c03a4949a528c2cc7f557e217 ""
@@ -268,12 +266,12 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743911045 3345742 df0eedd33858444a11cd7b5484bcd2c7 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "data.tex" 1749297923 1234 dfa92efc95fe9ceb40ea295baf8a10ba ""
-  "draft.aux" 1749372968.14075 6560 c565fd7f39e971c7a4829ea48b49f96e "pdflatex"
+  "draft.aux" 1749534652.46595 6560 c565fd7f39e971c7a4829ea48b49f96e "pdflatex"
   "draft.bbl" 1749350952.88187 6269 3de4433777caa16eec2186a61166d007 "biber draft"
-  "draft.out" 1749372968.14161 1782 8eeac5d5097ccf360e0923a64e748853 "pdflatex"
-  "draft.run.xml" 1749372968.14289 2320 5674721bc624af3a27da50e66024dcdd "pdflatex"
-  "draft.tex" 1749372866.98271 4608 d21886cd2a981ac147156567666c77ad ""
-  "introduction.tex" 1749372966.36137 5889 9a267b80c18e448b198d6fb2e996828d ""
+  "draft.out" 1749534652.46667 1782 8eeac5d5097ccf360e0923a64e748853 "pdflatex"
+  "draft.run.xml" 1749534652.46776 2320 5674721bc624af3a27da50e66024dcdd "pdflatex"
+  "draft.tex" 1749534629.06032 4592 34ac354d9a3c32529bb9dd977aaad4e9 ""
+  "introduction.tex" 1749534650.87698 5890 eedc691969ab6caf7d018c77c627bde9 ""
   "results.tex" 1749369927.69242 4372 c142953df3925bae2c47f68943cc557d ""
   "summary_statistics.tex" 1749350942.14365 665 bd74ce4cdd77a47b756e8635561e4ae1 ""
   "variations.tex" 1749371753.19987 4110 3d6b15c271dee2171fa3df40fc3ecf22 ""
