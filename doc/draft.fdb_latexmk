@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber draft"] 1749350943.64106 "draft.bcf" "draft.bbl" "draft" 1749534652.53452 0
+["biber draft"] 1749350943.64106 "draft.bcf" "draft.bbl" "draft" 1749534929.72014 0
   "bibliography.bib" 1749298879 1067 23f6600a05b5c2cbe972f12a53d55be7 ""
-  "draft.bcf" 1749534652.46728 108986 c5fd8a0022847cc1a30e108195958047 "pdflatex"
+  "draft.bcf" 1749534929.65368 108986 c5fd8a0022847cc1a30e108195958047 "pdflatex"
   (generated)
   "draft.bbl"
   "draft.blg"
   (rewritten before read)
-["pdflatex"] 1749534651.07845 "/Users/wooyongpark/Dropbox/01 Coursework/02 Stat/08 Deep Learning/final-project/doc/draft.tex" "draft.pdf" "draft" 1749534652.53471 0
+["pdflatex"] 1749534928.26231 "/Users/wooyongpark/Dropbox/01 Coursework/02 Stat/08 Deep Learning/final-project/doc/draft.tex" "draft.pdf" "draft" 1749534929.72034 0
   "../figures/cnn-1.png" 1749292980.40205 42880 7e04275af8b5ca302dff6d6a50621c4d ""
   "../figures/cnn-2.png" 1749292989.29809 42769 d83c8952ea8f178037fbd469dbb1b25f ""
   "../figures/cnn-3.png" 1749292996.36326 43679 6418c6b2c450d0ed723b3e16d49804af ""
@@ -265,14 +265,14 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743911059 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743911045 3345742 df0eedd33858444a11cd7b5484bcd2c7 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "data.tex" 1749297923 1234 dfa92efc95fe9ceb40ea295baf8a10ba ""
-  "draft.aux" 1749534652.46595 6560 c565fd7f39e971c7a4829ea48b49f96e "pdflatex"
+  "data.tex" 1749534896.30882 1125 9d5889e075fa8066acba0489d0b4c96d ""
+  "draft.aux" 1749534929.65249 6560 c565fd7f39e971c7a4829ea48b49f96e "pdflatex"
   "draft.bbl" 1749350952.88187 6269 3de4433777caa16eec2186a61166d007 "biber draft"
-  "draft.out" 1749534652.46667 1782 8eeac5d5097ccf360e0923a64e748853 "pdflatex"
-  "draft.run.xml" 1749534652.46776 2320 5674721bc624af3a27da50e66024dcdd "pdflatex"
+  "draft.out" 1749534929.65309 1782 8eeac5d5097ccf360e0923a64e748853 "pdflatex"
+  "draft.run.xml" 1749534929.65415 2320 5674721bc624af3a27da50e66024dcdd "pdflatex"
   "draft.tex" 1749534629.06032 4592 34ac354d9a3c32529bb9dd977aaad4e9 ""
   "introduction.tex" 1749534650.87698 5890 eedc691969ab6caf7d018c77c627bde9 ""
-  "results.tex" 1749369927.69242 4372 c142953df3925bae2c47f68943cc557d ""
+  "results.tex" 1749534928.06648 4380 8b4fcce45a8156f5da2cba6950833505 ""
   "summary_statistics.tex" 1749350942.14365 665 bd74ce4cdd77a47b756e8635561e4ae1 ""
   "variations.tex" 1749371753.19987 4110 3d6b15c271dee2171fa3df40fc3ecf22 ""
   (generated)
